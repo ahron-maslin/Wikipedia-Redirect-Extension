@@ -1,0 +1,21 @@
+{
+  "name": "Redirect Wikipedia to Mobile Site",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Redirect www.wikipedia.org to en.m.wikipedia.org for a cleaner view",
+  "icons": {
+    "16": "icons/Icon-16.png",
+    "48": "icons/Icon-48.png",
+    "128": "icons/Icon-128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "*://www.wikipedia.org/*",
+    "*://en.wikipedia.org/*",
+    "tabs"
+  ]
+}
