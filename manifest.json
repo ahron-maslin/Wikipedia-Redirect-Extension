@@ -9,7 +9,7 @@
     "128": "icons/Icon-128.png"
   },
   "background": {
-    "page": "src/bg/background.html",
+    "page": "src/background.html",
     "persistent": true
   },
   "permissions": [
